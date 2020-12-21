@@ -1,7 +1,7 @@
 package Metal;
 
-import "Cocoa:objc"
-import "Cocoa:CoreFoundation"
+import "objc:objc"
+import CoreFoundation "corefoundation:core_foundation"
 
 @force foreign import metal "system:Metal.framework"
 @force foreign import metalKit "system:MetalKit.framework"
